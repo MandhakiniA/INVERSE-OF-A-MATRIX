@@ -12,23 +12,24 @@ Import the numpy module to use the built-in functions for calculation
 Prepare the lists from each linear equations and assign in np.array()
 
 ### Step 3:
-Using the np.linalg.matrix_rank(), we can find the solutions.
+Using the np.linalg.inv(a), we can find the solutions.
 
 ### Step 4:
 End the program
 ## Program:
 ~~~
-#Program to find the rank of a matrix.
-#Developed by:A.Mandhakini
+#Program to find the inverse of a matrix.
+#Developed by: A.Mandhakini
 #RegisterNumber:23010115
 import numpy as np
-a= [[1,2,3],[3,6,9]]
-b=np.linalg.matrix_rank(a)
+a=[[1,0,3],[-1,2,-2],[2,3,-1]]
+b=np.linalg.inv(a);
 print(b)
 ~~~
 
 ## Output:
-![image](https://github.com/MandhakiniA/INVERSE-OF-A-MATRIX/assets/150005194/a2dfbb68-f0c7-4455-ae96-2fe5a45d1178)
+![image](https://github.com/MandhakiniA/INVERSE-OF-A-MATRIX/assets/150005194/82b05eea-86a8-4eb8-bdfc-7cc116f512c5)
+
 
 
 ## Result:
